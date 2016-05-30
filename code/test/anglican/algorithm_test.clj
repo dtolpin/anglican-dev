@@ -259,7 +259,6 @@
    :smc [:number-of-particles 100]
    :pimh [:number-of-particles 100]
    :pgibbs [:number-of-particles 100]
-   :ipmcmc [:number-of-particles 100 :number-of-nodes 10 :all-particles? true]
    :pgas [:number-of-particles 10]
    :pcascade [:number-of-particles 100 :number-of-threads 200]})
 
