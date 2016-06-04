@@ -42,8 +42,7 @@
     :parse-fn #(Integer/parseInt %)]
 
    ["-d" "--debug" "Print debugging information"
-    :default false
-    :flag true]
+    :default false]
 
    ["-f" "--output-format FORMAT" "Output format"
     :default :anglican
