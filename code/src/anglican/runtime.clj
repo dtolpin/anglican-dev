@@ -12,7 +12,7 @@
 (defn abs [x] (Math/abs x))
 (defn floor [x] (Math/floor x))
 (defn ceil [x] (Math/ceil x))
-(defn round [x] (Math/round x))
+(defn round [x] (Math/round (double x)))
 (defn rint [x] (Math/rint x))
 (defn signum [x] (Math/signum x))
 
